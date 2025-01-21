@@ -29,6 +29,9 @@ body {
 
 /* /utility */
 
+
+/*header*/
+
 header {
     background-color: var(--header-color);
 }
@@ -37,6 +40,7 @@ header {
 
     background-color: var(--header-color);
     align-items: center;
+    justify-content: space-between;
     margin: auto;
     color: var(--header-text-color);
     height: 80px;
@@ -45,27 +49,16 @@ header {
     .menu a {
 
         color: var(--header-text-color);
-
+        text-decoration: none;
+        font-weight: bold;
 
     }
 }
 
-.menu,
-.icon-menu,
-.logo {
-
-    flex-grow: 1;
-
-
-
-}
 
 .logo {
 
     text-align: center;
-
-
-
 
 }
 
@@ -75,10 +68,47 @@ header {
     width: 140px;
     padding-top: 5px;
 
-
 }
 
 .icon-menu {
 
     text-align: end;
 }
+
+/* fine header */
+
+
+
+
+
+.photo {
+
+    max-width: 100%;
+}
+
+
+
+
+.canvas {
+    position: relative;
+    width: 400px;
+    height: 600px;
+
+  }
+
+  .canvas:hover div.hover-img {
+    display: block;
+  }
+
+
+
+  div.hover-img {
+    position: absolute;
+    top: 77%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    display: none;
+
+
+ 
+  }
