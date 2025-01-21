@@ -46,11 +46,12 @@ header {
     height: 80px;
     width: 80%;
 
-    .menu a {
+    .categories a {
 
         color: var(--header-text-color);
         text-decoration: none;
         font-weight: bold;
+        padding-right: 1rem;
 
     }
 }
@@ -63,8 +64,7 @@ header {
 }
 
 .img {
-
-
+    
     width: 140px;
     padding-top: 5px;
 
@@ -87,25 +87,37 @@ header {
 .canvas {
     position: relative;
     width: 400px;
-    height: 600px;
 
-  }
 
-  .canvas:hover div.hover-img {
+}
+
+.canvas:hover div.hover-img {
     display: block;
-  }
+}
 
 
-
-  div.hover-img {
+div.hover-img {
     position: absolute;
     width: 400px;
-    height: 600px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
 
 
- 
-  }
+
+
+}
+
+.img-canvas {
+
+    width: 100%;
+}
+
+
+.gallery {
+
+margin-top: 6rem;
+justify-content: center;
+
+}
