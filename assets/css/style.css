@@ -7,11 +7,17 @@ border: dashed 1px;
 
 }
 
+body {
+
+    min-width: 2000px;
+}
+
 /*colori*/
 
 :root {
 
     --header-color: #ff6900;
+    --header-text-color: white;
 }
 
 
@@ -23,8 +29,23 @@ border: dashed 1px;
 
 /* /utility */
 
-.header {
+
+.container {
 
     background-color: var(--header-color);
+    align-items: center;
+    color: var(--header-text-color);
+ 
 
+    a.container {
+
+        color: var(--header-text-color);
+
+    }
+
+    a.menu {
+
+        color: var(--header-text-color);
+
+    }
 }
