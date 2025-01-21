@@ -9,7 +9,7 @@ border: dashed 1px;
 
 body {
 
-    min-width: 2000px;
+    min-width: 1280px;
 }
 
 /*colori*/
@@ -35,17 +35,26 @@ body {
     background-color: var(--header-color);
     align-items: center;
     color: var(--header-text-color);
- 
+    height: 80px;
 
-    a.container {
-
-        color: var(--header-text-color);
-
-    }
-
-    a.menu {
+    .menu a {
 
         color: var(--header-text-color);
 
     }
 }
+
+.menu,
+.logo,
+.icon-menu {
+
+    flex-grow: 1;
+
+}
+
+.logo {
+    
+
+    
+}
+
