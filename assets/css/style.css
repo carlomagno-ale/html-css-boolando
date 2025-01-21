@@ -29,6 +29,9 @@ body {
 
 /* /utility */
 
+header {
+    background-color: var(--header-color);
+}
 
 .container {
 
@@ -36,25 +39,39 @@ body {
     align-items: center;
     color: var(--header-text-color);
     height: 80px;
+    width: 80%;
+    margin: auto;
 
     .menu a {
 
         color: var(--header-text-color);
+        
 
     }
 }
 
 .menu,
-.logo,
-.icon-menu {
+.icon-menu,
+.logo {
 
-    flex-grow: 1;
+    gap: 1;
+
+
 
 }
 
 .logo {
-    
 
+    justify-content: center;
+
+    
+}
+
+.img {
+
+
+width: 20%;
+    
     
 }
 
