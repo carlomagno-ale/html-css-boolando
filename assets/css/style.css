@@ -1,0 +1,30 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: dashed 1px;
+
+}
+
+/*colori*/
+
+:root {
+
+    --header-color: #ff6900;
+}
+
+
+/*utility*/
+
+.flex {
+    display: flex;
+}
+
+/* /utility */
+
+.header {
+
+    background-color: var(--header-color);
+
+}
